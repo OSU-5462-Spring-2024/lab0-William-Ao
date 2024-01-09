@@ -88,6 +88,6 @@ int main(int argc, char *argv[])
   }
   /* print out what i get */
   printf ("received '%s'\n", bufferReceived);
-    
+    return 1;
 
 } // end of main()
